@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="InrixNode"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="InrixTripLL"/>
+<fullyQualifiedTypeName name="InrixTripLL.InrixNode"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="InrixTripAR"/>
+<fullyQualifiedTypeName name="java.awt.Polygon"/>
+<fullyQualifiedTypeName name="com.sun.javafx.geom.Rectangle"/>
+<fullyQualifiedTypeName name="CityFinder"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="InrixPatternFinder"/>
+<fullyQualifiedTypeName name="OSM_FindLocation"/>
+<fullyQualifiedTypeName name="OSM_Handle"/>
+<fullyQualifiedTypeName name="ParkingAreaLocator"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="MFMparkCheck.MFMtripEnd"/>
+<fullyQualifiedTypeName name="Location"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="MFMparkCheck.NearestNeighbors"/>
+<fullyQualifiedTypeName name="MFMparkCheck"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="opt.reid.ElipticalParabaloid"/>
+<fullyQualifiedTypeName name="opt.reid.CrazyParabaloid"/>
+<fullyQualifiedTypeName name="shared.Instance"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="util.linalg.Vector"/>
+<fullyQualifiedTypeName name="weka.core.Instance"/>
+<fullyQualifiedTypeName name="weka.core.Attribute"/>
+<fullyQualifiedTypeName name="weka.core.FastVector"/>
+<fullyQualifiedTypeName name="weka.core.Instances"/>
+</qualifiedTypeNameHistroy>

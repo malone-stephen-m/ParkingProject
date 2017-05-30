@@ -1,0 +1,46 @@
+import java.io.File;
+
+import org.w3c.dom.Document;
+
+/**
+ * A class to determine if a vehicle is in or apraching a Parking area based on the lat lon and a search radius
+ * @author SDM
+ *
+ */
+public class ParkingAreaLocator {
+	OSM_Handle osm = new OSM_Handle();
+	
+	/**
+	 * given a lat long
+	 * @param lat
+	 * @param lon
+	 * @param rad
+	 * @return
+	 * @throws Exception
+	 */
+	public boolean inParkingArea(double lat, double lon, double rad) throws Exception {
+		//Build Street Query
+		osm.addQuery(lat,lon,rad,"amenity","parking","way",false); //lots
+//		osm.addQuery(lat,lon,rad,"building","garage","way",false); //garages
+//		osm.addQuery(lat,lon,rad,"building","garages","way",false); //garages
+//		osm.addQuery(lat,lon,rad,"landuse","garages","way",false); //garages
+		osm.addQuery(lat,lon,rad,"parking:lane:both","","way",false); //street
+		osm.addQuery(lat,lon,rad,"parking:lane:righ","","way",false); //street
+		osm.addQuery(lat,lon,rad,"parking:lane:left","","way",false); //street
+		osm.addQuery(lat,lon,rad,"parking:lane","","way",false); //street
+
+		
+		//Format Query to Send
+		File Query = osm.formatQuery("C:/Users/SDM/workspace/ParkingSpotter9000/src/Query1");
+		
+		//Send Query
+		Document result = osm.SendandReceive("http://www.overpass-api.de/api/interpreter",
+				Query);
+		
+		if (osm.isEmpty(result)) {
+			return false;
+		}
+		return true;
+	}
+
+}

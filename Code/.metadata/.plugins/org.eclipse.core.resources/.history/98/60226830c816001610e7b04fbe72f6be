@@ -1,0 +1,40 @@
+
+public class ParkingDTreeClassifier {
+
+	public boolean Classify() {
+		
+		//Decision Tree represented as If Statements
+		if (varDist <= 17.5137) {
+			if (numPoints20m <= 35) {
+				if (numPoints7m <= 0) return false;
+				else {
+					if (avgDist <= 10.926) {
+						if (varDist <= 8.1697) {
+							if(numPoints20m <= 13) return true;
+							return false;
+						} else return true;
+					} else {
+						if (numPoints20m <= 30) return false;
+						return true;
+					}
+				}
+			} else {
+				if (avgDist <= 6.274) {
+					if (numPoints20m <= 55) return true;
+					return false;
+				} else {
+					if (varDist <= 16.257) return false;
+					if (numPoints7m <= 12) {
+						if (avgDist <= 12.294) {
+							if (varDist <= 16.374) return true;
+							return false;
+						}
+						return true;
+					}
+					return true;
+				}
+			}
+		}
+		return true;
+	}
+}

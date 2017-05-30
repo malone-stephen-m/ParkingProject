@@ -1,0 +1,19 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="InrixTripLL"><rhs name\="InrixTripLL"/></lhs><lhs name\="InrixTripAR"><rhs name\="InrixTripAR"/></lhs><lhs name\="java.io.Writer"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.io.BufferedWriter"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="CityFinder"><rhs name\="CityFinder"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="InrixPatternFinder"><rhs name\="InrixPatternFinder"/></lhs><lhs name\="ParkingAreaLocator"><rhs name\="ParkingAreaLocator"/></lhs><lhs name\="MFMparkCheck"><rhs name\="MFMparkCheck"/></lhs><lhs name\="Location"><rhs name\="Location"/></lhs><lhs name\="shared.Copyable"><rhs name\="shared.Instance"/></lhs><lhs name\="shared.Instance"><rhs name\="shared.Instance"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
